@@ -1,3 +1,3 @@
 # Kokoa Clone 2020 Update
 
-CSS Is Super Cool
+CSS Is Super Cool FR
