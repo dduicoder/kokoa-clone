@@ -1,22 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
-
 @import "reset.css";
 @import "var.css";
 
 /* Components */
 @import "Screens/login.css";
 @keyframes shake {
-  0% {
-    transform: translate3d(0, 0, 0);
+  10%,
+  90% {
+    transform: scale(1.005);
   }
-  50% {
-    transform: scale(1.018);
+
+  20%,
+  80% {
+    transform: scale(1.0075);
   }
-  100% {
+
+  30%,
+  50%,
+  70% {
+    transform: scale(1.009);
+  }
+
+  40%,
+  60% {
     transform: translate3d(0, 0, 0);
   }
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "SamsungOne 400", "SamsungOne 700";
 }
