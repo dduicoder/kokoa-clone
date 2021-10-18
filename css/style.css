@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
+
+@import "reset.css";
+@import "var.css";
+
+/* Components */
+@import "Screens/login.css";
+@keyframes shake {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: scale(1.018);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
