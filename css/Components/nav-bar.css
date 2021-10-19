@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9fa;
+  padding: 20px 45px;
+  border-top: 1px solid rgba(120, 120, 120, 0.38);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 650;
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  height: 23px;
+  width: 23px;
+  border-radius: 11.5px;
+  left: 16px;
+  bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.notext {
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  left: 34px;
+  top: -12px;
+}

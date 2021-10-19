@@ -3,6 +3,8 @@
 
 /* Components */
 @import "Screens/login.css";
+@import "Screens/friends.css";
+
 @keyframes shake {
   10%,
   90% {
@@ -27,5 +29,6 @@
 }
 
 body {
+  color: #2e363e;
   font-family: "SamsungOne 400", "SamsungOne 700";
 }

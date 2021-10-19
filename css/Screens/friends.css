@@ -1,0 +1,40 @@
+@import "../Components/nav-bar.css";
+@import "../Components/screen-header.css";
+@import "../Components/user-component.css";
+@import "../var.css";
+
+#friends-display-link {
+  height: 18px;
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  border: 5px solid #fafafa;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+#friends-display-link i {
+  flex-direction: row;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 8px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel-header {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 12px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-chevron-up {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
