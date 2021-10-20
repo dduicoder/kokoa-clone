@@ -30,6 +30,7 @@
 .user-component__name {
   font-weight: 551;
   font-size: 18px;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .user-component__subtitle {
@@ -37,6 +38,24 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+.user-component__time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .user-component__name--not-bold {
   font-weight: 450;
+}
+
+.user-component__columnn:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__column {
+  display: flex;
 }

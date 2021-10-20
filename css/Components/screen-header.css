@@ -5,6 +5,7 @@
   padding: var(--horizontal-space);
   margin-top: 33px;
   position: relative;
+  margin-bottom: 8px;
 }
 
 .screen-header__title {
@@ -14,4 +15,23 @@
 
 .screen-header__icons span {
   margin-left: 20px;
+}
+
+.screen-header__link {
+  margin-left: 20px;
+  position: relative;
+}
+
+.fa-cog {
+  position: relative;
+}
+
+.screen-header__new {
+  background-color: tomato;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
 }
