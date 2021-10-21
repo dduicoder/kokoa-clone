@@ -1,0 +1,56 @@
+.settings-top {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.settings-bottom {
+  padding-top: 15px;
+}
+
+.settings-main {
+  font-size: 20.5px;
+  margin: 17.5px 0px;
+  padding-bottom: 17.5px;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.05);
+}
+.settings-main i {
+  margin: 0px 12px;
+}
+
+.settings-main__sub {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-main__subtitle {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.version {
+  border-bottom: none;
+}
+
+.settings-text {
+  position: relative;
+}
+
+.settings-badge {
+  position: absolute;
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 650;
+  font-size: 10px;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  left: 75px;
+  bottom: 0.1px;
+  top: 5.9px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

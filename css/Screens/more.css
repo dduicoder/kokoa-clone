@@ -1,0 +1,31 @@
+.more-suggestion {
+  margin-top: 36px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+.more-suggestion__icons {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestion__icon img {
+  width: 60px;
+  height: 60px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.more-suggestion__icon span {
+  font-size: 15px;
+  text-align: center;
+}
+
+.more-suggestion__icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
