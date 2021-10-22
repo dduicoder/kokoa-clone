@@ -7,13 +7,31 @@
   padding: 20px 45px;
   border-top: 1px solid rgba(120, 120, 120, 0.38);
 }
+@keyframes notification-pop {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 .nav__list {
   display: flex;
   justify-content: space-between;
+  opacity: 0;
+  animation: notification-pop 0.3s ease-in-out forwards;
 }
+
+.nav-splash .nav__list {
+  animation-delay: 0.45s;
+}
+
 .nav__link {
   position: relative;
 }
+
 .nav__notification {
   background-color: tomato;
   color: white;
@@ -37,5 +55,5 @@
   width: 6px;
   border-radius: 3px;
   left: 34px;
-  top: -12px;
+  top: -10px;
 }

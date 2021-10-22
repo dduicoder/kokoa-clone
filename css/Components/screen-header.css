@@ -35,3 +35,16 @@
   width: 6px;
   border-radius: 3px;
 }
+
+@keyframes rotate-cog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotate-cog 1.5s linear infinite;
+}

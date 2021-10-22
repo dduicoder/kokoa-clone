@@ -11,6 +11,7 @@
 @import "Components/badge.css";
 @import "Components/icon-raw.css";
 @import "Components/alt-screen-header.css";
+@import "Components/no-mobile.css";
 
 @keyframes shake {
   10%,

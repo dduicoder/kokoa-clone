@@ -100,3 +100,23 @@
   left: 25px;
   font-size: 13px;
 }
+
+@keyframes heart-beat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heart-beat 1.6s linear infinite;
+}
