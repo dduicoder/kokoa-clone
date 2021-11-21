@@ -147,10 +147,11 @@
 .reply input {
   padding: 13px;
   width: 100%;
-  border: var(--main-border);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
+  font-family: "SamsungOne 400", "SamsungOne 700";
 }
 
 .reply__column:last-child > i,
@@ -196,6 +197,7 @@
 .reply:focus-within input {
   width: 99vw;
   transform: translateX(-10%) translateY(-82px);
+  border: none;
 }
 
 .reply:focus-within {
