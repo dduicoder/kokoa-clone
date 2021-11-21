@@ -16,7 +16,9 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
-
+.fa-music {
+  margin-left: 20px;
+}
 .screen-header__link {
   margin-left: 20px;
   position: relative;
@@ -26,8 +28,16 @@
   position: relative;
 }
 
+.fa-music,
+.fa-book {
+  transition: all 0.3s ease-in-out;
+}
+.fa-music:hover,
+.fa-book:hover {
+  transform: scale(1.15);
+}
 .screen-header__new {
-  background-color: tomato;
+  background-color: #ff1acd;
   color: white;
   position: absolute;
   bottom: 20px;

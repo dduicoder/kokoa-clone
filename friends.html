@@ -9,7 +9,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Friends - KokoaClone</title>
+        <title>Friends - ArcaneTalk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -30,8 +30,9 @@
         <header class="screen-header">
             <h1 class="screen-header__title">Friends</h1>
             <div class="screen-header__icons">
+                <a href="books.html"><i class="fas fa-book fa-lg"></i></a>
                 <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
+                <a href="music.html"><i class="fas fa-music fa-lg"></i></a>
                 <a class="screen-header__link" href="settings.html"><span class="screen-header__new"></span><i class="fas fa-cog fa-lg"></i></a>
             </div>
         </header>
@@ -39,24 +40,29 @@
         <a id="friends-display-link" ><i class="fas fa-info-circle"></i>Friends' Names Display<i class="fas fa-chevron-right fa-xs"></i></a>
 
         <main class="friends-screen">
-            <div class="user-component">
+            <div class="user-component self">
                 <div class="user-component__column user-component__column--not">
-                    <img class="user-component__avatar user-component__avatar--x" src="Sijin.jpg" />
+                    <img class="user-component__avatar user-component__avatar--x" src="images/Jinx.jpg" />
                     <div class="user-component__text">
-                        <h4 class="user-component__name">Sijin</h4>
+                        <h4 class="user-component__name">jinx</h4>
+                        <h6 class="user-component__subtitle">Guess i'm the jinx</h6>
                     </div>
                 </div>
+                <a href="music.html"><div class="song-box">
+                    <i class="fas fa-play"></i>
+                    <span>Enemy</span>
+                </div></a>
             </div>
             <div class="friends-screen__channel-header">
                 <span>Channel</span>
                 <i class="fas fa-chevron-up fa-xs"></i>
             </div>
-            <div class="friends-screen__channel">
+            <div class="friends-screen__channel channels">
                 <div class="user-component">
                     <div class="user-component__column">
-                        <img class="user-component__avatar user-component__avatar--sm" src="Sijin.jpg" />
+                        <img class="user-component__avatar user-component__avatar--sm" src="https://sm.ign.com/ign_kr/cover/l/league-of-/league-of-legends-arcane_5m41.jpg" />
                         <div class="user-component__text">
-                            <h4>Channel</h4>
+                            <h4>Arcane Talk</h4>
                         </div>
                     </div>
                     <div class="user-component__column">
@@ -67,21 +73,91 @@
                     </div>
                 </div>
             </div>
+            <div class="friends-screen__channel-header">
+                <span>Friends</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar user-component__avatar--sm" src="images/Silko.png" />
+                        <div class="user-component__text">
+                            <h4>Silco</h4>
+                            <h6 class="user-component__subtitle">You're perfect, Jinx</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar user-component__avatar--sm" src="images/Vi.jpg" />
+                        <div class="user-component__text">
+                            <h4>Vi</h4>
+                            <h6 class="user-component__subtitle">Powder...</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar user-component__avatar--sm" src="images/Ekko.jpg" />
+                        <div class="user-component__text">
+                            <h4>Ekko</h4>
+                            <h6 class="user-component__subtitle">For Zaun</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar user-component__avatar--sm" src="images/Jayce.jpg" />
+                        <div class="user-component__text">
+                            <h4>Jayce</h4>
+                            <h6 class="user-component__subtitle">Progression</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar user-component__avatar--sm" src="images/Viktor.jpg" />
+                        <div class="user-component__text">
+                            <h4>Viktor</h4>
+                            <h6 class="user-component__subtitle">Join the glorious evolution!</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar user-component__avatar--sm" src="images/Mel.jpeg" />
+                        <div class="user-component__text">
+                            <h4>Mel</h4>
+                            <h6 class="user-component__subtitle">Piltover..</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
-        <nav class="nav nav-splash">
+        <nav class="nav">
             <ul class="nav__list">
                 <li class="nav_btn">
-                    <a class="nav__link"><i class="fas fa-user fa-2x"></i></a>
+                    <a class="nav__link"><i class="fas fa-user"></i></a>
                 </li>
                 <li class="nav_btn">
-                    <a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a>
+                    <a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="far fa-comment"></i></a>
                 </li>
                 <li class="nav_btn">
-                    <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+                    <a class="nav__link" href="find.html"><i class="fas fa-search"></i></a>
                 </li>
                 <li class="nav_btn">
-                    <a class="nav__link" href="more.html"><span class="nav__notification notext"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                    <a class="nav__link" href="more.html"><span class="nav__notification notext"></span><i class="fas fa-ellipsis-h"></i></a>
                 </li>
             </ul>
         </nav>

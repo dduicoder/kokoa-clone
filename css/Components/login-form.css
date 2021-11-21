@@ -6,25 +6,42 @@
 #login-form input {
   border: none;
   padding: 13px 0px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 17px;
 }
 #login-form input:not([type="submit"]) {
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.25);
-  transition: border-color 0.15s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  transition: border-color 0.2s ease-in-out;
   color: rgba(0, 0, 0, 0.9);
 }
-#login-form input:focus:not([type="submit"]) {
-  border-color: var(--yellow);
+#login-form input:not([type="submit"]):focus {
+  border-color: #ff1acd;
 }
 #login-form :nth-child(3) {
   margin-top: 13px;
   border-top: 1px solid white;
   border-radius: 7px;
-  background-color: var(--yellow);
+  background-color: #ff1acd;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
-#login-form :nth-child(3):focus {
-  animation: shake 0.41s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+#login-form :nth-child(4) {
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  background-color: #598db5;
+  color: white;
+}
+#login-form :nth-child(3):focus,
+#login-form :nth-child(4):focus {
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+#login-form :nth-child(3):hover {
+  transform: scale(1.03);
+  box-shadow: 5px 5px 3px #c74bee;
+}
+#login-form :nth-child(4):hover {
+  transform: scale(1.03);
+  box-shadow: 5px 5px 3px royalblue;
 }
 #login-form a {
   margin-top: 8px;

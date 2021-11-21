@@ -1,18 +1,21 @@
 .alt-header {
   padding: var(--horizontal-space);
   margin-top: 24px;
-  margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.alt-header__column {
-  width: 33%;
+.alt-header__column:first-child,
+.alt-header__column:last-child {
+  width: 25%;
 }
 
+.alt-header__column:nth-child(2) {
+  width: 50%;
+}
 .alt-header__title {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .alt-header__column:first-child {

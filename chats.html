@@ -9,7 +9,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chats - KokoaClone</title>
+        <title>Chats - ArcaneTalk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -30,38 +30,78 @@
         <header class="screen-header">
             <h1 class="screen-header__title">Chats</h1>
             <div class="screen-header__icons">
+                <a href="books.html"><i class="fas fa-book fa-lg"></i></a>
                 <span><i class="fas fa-search fa-lg"></i></span>
                 <span><i class="far fa-comment-dots fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
+                <a href="music.html"><i class="fas fa-music fa-lg"></i></a>
                 <a class="screen-header__link" href="settings.html"><span class="screen-header__new"></span><i class="fas fa-cog fa-lg"></i></a>
             </div>
         </header>
-
         <main class="main-screen">
-            <a href="chat.html">
+            <a href="chat-together.html">
                 <div class="user-component">
                     <div class="user-component__column">
-                        <img class="user-component__avatar" src="Sijin.jpg" />
+                        <img class="user-component__avatar" src="images/Silko.png" />
                         <div>
-                            <h4 class="user-component__name user-component__name--not-bold">Channel</h4>
-                            <h6 class="user-component__subtitle">Please Check My Kokoa info</h6>
+                            <h4 class="user-component__name user-component__name--not-bold">Silco, Vi, Caitlyn</h4>
+                            <h6 class="user-component__subtitle">You're perfect, Jinx</h6>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="chat-ekko.html">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar" src="images/Ekko.jpg" />
+                        <div>
+                            <h4 class="user-component__name user-component__name--not-bold">ekko</h4>
+                            <h6 class="user-component__subtitle">Jinx...</h6>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="chat-silko.html">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar" src="images/Silko.png" />
+                        <div>
+                            <h4 class="user-component__name user-component__name--not-bold">Silco</h4>
+                            <h6 class="user-component__subtitle">We'll show them all</h6>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="chat-vi.html">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar" src="images/Vi.jpg" />
+                        <div>
+                            <h4 class="user-component__name user-component__name--not-bold">Vi</h4>
+                            <h6 class="user-component__subtitle">Violet, Please!</h6>
                         </div>
                     </div>
                     <div class="user-component__columnn">
-                        <span class="user-component__time">22:22</span>
-                        <div class="badge user-component__not">3</div>
+                        <span class="user-component__time"></span>
                     </div>
                 </div>
             </a>
         </main>
-
+        
         <nav class="nav">
-            <div class="nav__list">
-                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
-                <a class="nav__link"><span class="nav__notification badge">1</span><i class="fas fa-comment fa-2x"></i></a>
-                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
-                <a class="nav__link" href="more.html"><span class="nav__notification notext"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
-            </div>
+            <ul class="nav__list">
+                <li class="nav_btn">
+                    <a class="nav__link" href="friends.html"><i class="far fa-user"></i></a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav__link"><span class="nav__notification badge">1</span><i class="fas fa-comment"></i></a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav__link" href="find.html"><i class="fas fa-search"></i></a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav__link" href="more.html"><span class="nav__notification notext"></span><i class="fas fa-ellipsis-h"></i></a>
+                </li>
+            </ul>
         </nav>
         
         <div id="no-mobile">
