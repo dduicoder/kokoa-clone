@@ -54,6 +54,8 @@
   flex-direction: column;
   align-items: center;
   animation: fading 0.5s linear;
+  height: 85vh;
+  overflow-y: scroll;
 }
 
 .chat-timestamp {
@@ -110,6 +112,7 @@
 .message-row--own {
   display: flex;
   justify-content: flex-end;
+  margin-right: -50px;
 }
 
 .message__bubble-own {
